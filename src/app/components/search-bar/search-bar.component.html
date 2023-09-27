@@ -1,0 +1,7 @@
+<body>
+  <mat-form-field appearance="outline" class="input-cont">
+    <input matInput autofocus type="text" placeholder="Search by Author" [(ngModel)]="searchedAuthor" (keyup)="onSearchedAuthorChanged()">
+    <button matSuffix mat-icon-button aria-label="Clear" (click)="clearInputQuery()">
+      <mat-icon>close</mat-icon></button>
+  </mat-form-field>
+</body>
